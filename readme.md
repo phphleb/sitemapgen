@@ -34,7 +34,7 @@ Route::get('/variant-two/preview/{url_part_1}/test/{url_part_2}/{url_part_3?}', 
 ```
 
 
-### Connection
+### Generation
 Step 4. Run task:
 
  ```bash
