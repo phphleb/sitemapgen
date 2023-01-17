@@ -1,0 +1,28 @@
+{
+  "sitemapgen": {
+    "version": "1",
+    "data": {
+      "type": "xml",
+      "url": "https://site1.com",
+      "changefreq": "monthly",
+      "priority": 0.9
+    },
+    "src": [
+      {
+        "routeName": "sitemap_test_1_route_name",
+        "source": ["Phphleb\\Sitemapgen\\App\\TestGenerator", "getV1"]
+      },
+      {
+        "routeName": "sitemap_test_2_route_name",
+        "source": {
+          "url_part_1": ["Phphleb\\Sitemapgen\\App\\TestGenerator", "getV2UrlPart1"],
+          "url_part_2": ["Phphleb\\Sitemapgen\\App\\TestGenerator", "getV2UrlPart2"],
+          "url_part_3": ["Phphleb\\Sitemapgen\\App\\TestGenerator", "getV2UrlPart3"]
+        },
+        "changefreq": "monthly",
+        "priority": 0.7,
+        "url": "https://site2.com"
+      }
+    ]
+  }
+}

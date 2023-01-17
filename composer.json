@@ -1,0 +1,27 @@
+{
+    "name": "phphleb/sitemapgen",
+    "description": "Sitemap generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Foma Tuturov",
+            "email": "fomiash@yandex.ru"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Phphleb\\Sitemapgen\\": "/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0",
+        "ext-readline": "*",
+        "phphleb/updater": ">=1.0.26",
+        "phphleb/nicejson": "dev-main"
+    },
+    "minimum-stability": "dev"
+}
